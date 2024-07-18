@@ -75,5 +75,5 @@ def adjust_results4_isadog(results_dic, dogfile):
       pet_label = results_dic[key][0] 
       model_label = results_dic[key][1]
       results_dic[key].append(1 if pet_label in dog_names else 0)
-      results_dic[key].append(1 if pet_label in dog_names else 0 )
+      results_dic[key].append(1 if model_label in dog_names else 0 )
     None
